@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- A varias formas de usar css atraves de
+ seletor + id + classe + universal + agrupamento -->
+
+<style>
+
+/*Seletor - Seleciona as tags h1 do documento */
+h1 {
+    text-align: center;
+    color: Blue;
+}
+
+/*Você cria um id para ser adicionado dentro da tag
+o id só pode ser usado uma vez, você pode escolher o nome do id */
+#seuid {
+    font-size: 20px;
+    text-align: left;
+    color: green;
+}
+
+/*Você cria uma classe que pode ser usada varias vezes
+por tags dentro do documento, você pode escolher o nome da classe */
+.suaclasse{
+    font-size: 30px;
+    color: red;
+}
+
+
+/* Você agrupa varias tags para aplicar efeitos */
+h2, h3 {
+    color: violet;
+}
+
+
+/*Universal, você aplica estes efeitos em todo o documento */
+* {
+    font-family: Verdana;
+}
+</style>
+</head>
+<body>
+
+<h1> Aprendendo CSS na Pratica</h1>
+
+<h3>Exemplos de CSS</h3>
+<p id="seuid">Este paragrafo usa id de CSS para aplicar efeito</p><br>
+
+<h4 class="suaclasse">Exemplo de classe sendo aplicado</h3>
+<p class="suaclasse">Este paragrafo usa uma classe para aplicar efeitos</p>
+
+
+
+
+
+</body>
+</html>
